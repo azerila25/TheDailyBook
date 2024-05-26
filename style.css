@@ -1,0 +1,92 @@
+
+#contents-2{
+    background-color: rgb(51, 208, 8);
+}
+#contents-3{
+    background-color: rgb(0, 137, 168);
+}
+#contents-4{
+    background-color: rgb(202, 0, 178);
+}
+#contents-5{
+    background-color: rgb(209, 0, 0);
+}
+#contents-6{
+    background-color: rgb(255, 94, 0);
+}
+.btn {
+    border-radius: 24px;
+    background-color: white;
+    border: rgb(255, 166, 0) 2px solid;
+}
+#contents{
+    padding: 2em;
+}
+#contents-1{
+    margin: 1em 0;
+    padding: 1em;
+}
+#contents-1-number{
+    color: gray;
+    opacity: 0.5;
+}
+#contents-1-content{
+    padding-top: 0.5em;
+}
+
+
+/* article */
+#article {
+    background-color:rgb(175, 175, 175);
+    padding: 1em 2em;
+}
+#article-1-image{
+    background-color: blueviolet;
+}
+#article-2-image{
+    background-color: rgb(13, 255, 0);
+}
+
+/* discover */
+#discover-and-footer{
+    padding: 1em 2em;
+}
+#discover-and-footer-topic-badge-1{
+    margin: 0.5em 0px;
+}
+#discover-and-footer-title-subcription{
+    margin-top: 0.5em;
+}
+
+/* layout mobile */
+@media screen and (max-width: 1400px) {
+    #carousel-right {
+        display: none;
+    }
+    #carousel {
+        padding: 2em 1em;
+    }
+    #carousel-left-caption {
+        padding: 0 1em;
+    }
+    #carousel-left-button{
+        margin: 1em 0;
+    }
+}
+
+/* layout website */
+@media screen and (min-width: 1400px) {
+    #carousel-left-button{
+        margin: 1em 0;
+        width: 20%;
+    }
+    #carousel {
+        margin: 2em 2em;
+    }
+    #wave {
+        margin-top: -310px;
+    }
+    #contents-1{
+        padding: 1em;
+    }
+}

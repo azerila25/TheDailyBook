@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- title and its icon-->
+  <title>The Daily Book</title>
+  <link rel="icon" type="image" href="open-book-white.png">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <!--ini bagian navbar-->
+  <section id="navbar" style="background-color: #fbe192;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fbe192;">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img src="open-book-black.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                The Daily Book
+              </a>
+
+              <ul class="nav justify-content-end navbar-nav collapse navbar-collapse" id="navbarTogglerDemo03">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Our Story</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Membership</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Write</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-secondary" style="border-radius: 22px; color: black;" type="submit">Get Started</button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <hr style="margin: 0px 0px; height: 3px; opacity: 50;"/>
+
+        <!--ini bagian carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                    <div id="carousel" class="row">
+                        <div id="carousel-left" class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <h1 class="display-3"><strong>Where good ideas find you</strong></h1>
+                                </div>
+                            </div>
+                            <div id="carousel-left-caption" class="row">
+                                <p>
+                                    At The Daily Book, we believe that every great idea begins with a spark of inspiration.
+                                    "Where Good Ideas Find You" is our dedicated section designed to ignite your imagination
+                                    and fuel your creativity. Here, you'll discover a treasure trove of thought-provoking content, 
+                                    from insightful book reviews and author interviews to trending literary discussions and 
+                                    innovative reading recommendations. Whether you're looking for the next big thing in literature, 
+                                    seeking motivation for your own writing, or simply want to explore new ideas, this is the 
+                                    place where inspiration comes to life. Dive in, and let the magic of books guide you to your 
+                                    next great idea. <a href="" style="color: black;">Learn More</a>
+                                </p>
+                                
+                            </div>
+                            <div id="carousel-left-button" class="row">
+                                <button class="btn btn-warning">Get Started</button>
+                            </div>
+                        </div>
+                        <div id="carousel-right" class="col">
+                            <img src="book-club.jpg" alt="" class="img-fluid" style="border-radius: 24px;">
+                        </div>
+                    </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+              </div>
+              
+              
+            </div>
+        </div> 
+    </div>
+
+    <!-- wave -->
+    <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f3f4f5" fill-opacity="1" d="M0,128L34.3,133.3C68.6,139,137,149,206,160C274.3,171,343,181,411,192C480,203,549,213,617,213.3C685.7,213,754,203,823,170.7C891.4,139,960,85,1029,69.3C1097.1,53,1166,75,1234,69.3C1302.9,64,1371,32,1406,16L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+    </svg>
+  </section>
+
+  <!--bagian Trending-->
+  <section id="trending">
+    <div class="container">
+        <div id="title" class="row" style="margin-top: 10px;">
+            <h3><img src="open-book-black.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top"> Trending on The Daily Book</h3>
+        </div>
+        <div id="contents" class="row">
+            <!-- 01 -->
+                <div id="contents-1" class="col-md-4">
+                    <div class="row">
+                        <div id="contents-1-number" class="col-2">
+                            <h2><strong>01</strong></h2>
+                        </div>
+                        <div id="contents-1-content" class="col">
+                            <div id="contents-1-content-author" class="row">
+                                <strong>
+                                    <p style="margin-bottom: 0;">
+                                        <img src="open-book.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
+                                        Monthly Bestsellers
+                                    </p>
+                                </strong>
+                            </div>
+                            <div id="contents-1-content-title" class="row">
+                                <p style="margin-bottom: 5;">
+                                    Highlighting the top-selling books of the current month and why they're popular.
+                                </p>
+                            </div>
+                            <div id="contents-1-content-time-and-date" class="row">
+                                <p >
+                                    May 4 | 15 min read <i class="bi bi-star-fill"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 02 -->
+                <div id="contents-1" class="col-md-4">
+                    <div class="row">
+                        <div id="contents-1-number" class="col-2">
+                            <h2><strong>02</strong></h2>
+                        </div>
+                        <div id="contents-1-content" class="col">
+                            <div id="contents-1-content-author" class="row">
+                                <strong>
+                                    <p style="margin-bottom: 0;">
+                                        <img src="open-book.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
+                                        Highly Anticipated Releases
+                                    </p>
+                                </strong>
+                            </div>
+                            <div id="contents-1-content-title" class="row">
+                                <p style="margin-bottom: 5;">
+                                    A look at upcoming books generating buzz, including release dates and author insights.
+                                </p>
+                            </div>
+                            <div id="contents-1-content-time-and-date" class="row">
+                                <p >
+                                    May 11 | 10 min read <i class="bi bi-star-fill"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 03 -->
+                <div id="contents-1" class="col-md-4">
+                    <div class="row">
+                        <div id="contents-1-number" class="col-2">
+                            <h2><strong>03</strong></h2>
+                        </div>
+                        <div id="contents-1-content" class="col">
+                            <div id="contents-1-content-author" class="row">
+                                <strong>
+                                    <p style="margin-bottom: 0;">
+                                        <img src="open-book.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
+                                        Recent Award Winners
+                                    </p>
+                                </strong>
+                            </div>
+                            <div id="contents-1-content-title" class="row">
+                                <p style="margin-bottom: 5;">
+                                    Coverage of books that have recently won major literary awards.
+                                </p>
+                            </div>
+                            <div id="contents-1-content-time-and-date" class="row">
+                                <p >
+                                    May 18 | 7 min read <i class="bi bi-star-fill"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 04 -->
+                <div id="contents-1" class="col-md-4">
+                    <div class="row">
+                        <div id="contents-1-number" class="col-2">
+                            <h2><strong>04</strong></h2>
+                        </div>
+                        <div id="contents-1-content" class="col">
+                            <div id="contents-1-content-author" class="row">
+                                <strong>
+                                    <p style="margin-bottom: 0;">
+                                        <img src="open-book.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
+                                        Book Controversies and Debates
+                                    </p>
+                                </strong>
+                            </div>
+                            <div id="contents-1-content-title" class="row">
+                                <p style="margin-bottom: 5;">
+                                    Discussions on books sparking debates, including censorship.
+                                </p>
+                            </div>
+                            <div id="contents-1-content-time-and-date" class="row">
+                                <p >
+                                    May 25 | 10 min read <i class="bi bi-star-fill"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 05 -->
+                <div id="contents-1" class="col-md-4">
+                    <div class="row">
+                        <div id="contents-1-number" class="col-2">
+                            <h2><strong>05</strong></h2>
+                        </div>
+                        <div id="contents-1-content" class="col">
+                            <div id="contents-1-content-author" class="row">
+                                <strong>
+                                    <p style="margin-bottom: 0;">
+                                        <img src="open-book.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
+                                        Celebrity Book Club Picks
+                                    </p>
+                                </strong>
+                            </div>
+                            <div id="contents-1-content-title" class="row">
+                                <p style="margin-bottom: 5;">
+                                    Updates on books chosen by popular celebrity book clubs.
+                                </p>
+                            </div>
+                            <div id="contents-1-content-time-and-date" class="row">
+                                <p >
+                                    June 1 | 10 min read <i class="bi bi-star-fill"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 06 -->
+                <div id="contents-1" class="col-md-4">
+                    <div class="row">
+                        <div id="contents-1-number" class="col-2">
+                            <h2><strong>06</strong></h2>
+                        </div>
+                        <div id="contents-1-content" class="col">
+                            <div id="contents-1-content-author" class="row">
+                                <strong>
+                                    <p style="margin-bottom: 0;">
+                                        <img src="open-book.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
+                                        Trending Genres
+                                    </p>
+                                </strong>
+                            </div>
+                            <div id="contents-1-content-title" class="row">
+                                <p style="margin-bottom: 5;">
+                                    In-depth articles on popular genres, such as thrillers or dystopian fiction.
+                                </p>
+                            </div>
+                            <div id="contents-1-content-time-and-date" class="row">
+                                <p >
+                                    June 8 | 5 min read <i class="bi bi-star-fill"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+    <hr style="margin: 0px 0px; height: 3px; opacity: 50;"/>
+  </section>
+
+  <!--ini bagian multi section (article and footer)-->
+  <section id="multi-section">
+    <div class="container">
+        <div class="row">
+            <div id="article" class="col-md-8">
+
+                <!--ini bagian article-->
+                <div class="card mb-3" >
+                        <div class="row g-0">
+                          <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="open-book.png" alt="Logo" width="25" height="25" class="d-inline-block align-text-top">
+                                    Spring 2024 Must-Reads
+                                </h5>
+                                <p class="card-text" style="margin-bottom: 0em;">
+                                    <strong>
+                                        Unmissable Picks for Your Summer Reading List
+                                    </strong>
+                                </p>
+                                <p class="card-text">
+                                    Dive into our curated selection of the hottest books hitting the shelves this summer.
+                                    From thrilling page-turners to heartfelt romances, discover the must-reads that will 
+                                    keep you entertained all season long.
+                                </p>
+                                <div class="card-text row">
+                                    <div class="col-md-8">
+                                        <small class="text-body-secondary">June 15 | 12 min read</small>
+                                    </div>
+                                    <div class="col-md-4 text-end">
+                                        <i class="bi bi-bookmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="summer-book.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" >
+                        <div class="row g-0">
+                          <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <img src="open-book.png" alt="Logo" width="25" height="25" class="d-inline-block align-text-top">
+                                    TikTok's BookTok Sensations
+                                </h5>
+                                <p class="card-text" style="margin-bottom: 0em;">
+                                    <strong>
+                                        The Viral Reads Everyone's Talking About
+                                    </strong>
+                                </p>
+                                <p class="card-text">Explore the books that are taking TikTok by storm and captivating readers worldwide. 
+                                    Our "BookTok Sensations" page features trending titles that have become overnight sensations, 
+                                    thanks to passionate book lovers on TikTok.
+                                </p>
+                                <div class="card-text row">
+                                    <div class="col-md-8">
+                                        <small class="text-body-secondary">June 22 | 8 min read</small>
+                                    </div>
+                                    <div class="col-md-4 text-end">
+                                        <i class="bi bi-bookmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="tiktok-book.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--ini bagian discover and footer-->
+            <div id="discover-and-footer" class="col-md-4">
+                <div id="discover-and-footer-title" class="row">
+                    <h5>Discover more of what matters to you</h5>
+                </div>
+                <div id="discover-and-footer-topic-badge" class="row align-items-center">
+                    <div id="discover-and-footer-topic-badge-1" class="col-3">
+                        <button type="button" class="btn btn-outline-secondary position-relative">
+                            Kindle
+                        </button>
+                    </div>
+                    <div id="discover-and-footer-topic-badge-1" class="col-3">
+                        <button type="button" class="btn btn-outline-secondary position-relative">
+                            Magazine
+                        </button>
+                    </div>
+                    <div id="discover-and-footer-topic-badge-1" class="col-3">
+                        <button type="button" class="btn btn-outline-secondary position-relative">
+                            Bookclub
+                        </button>
+                    </div>
+                    <div id="discover-and-footer-topic-badge-1" class="col-3">
+                        <button type="button" class="btn btn-outline-secondary position-relative">
+                            Tutorial
+                        </button>
+                    </div>
+                    <div id="discover-and-footer-topic-badge-1" class="col-3">
+                        <button type="button" class="btn btn-outline-secondary position-relative">
+                            Podcast
+                        </button>
+                    </div>
+                    <div id="discover-and-footer-topic-badge-1" class="col-3">
+                        <button type="button" class="btn btn-outline-secondary position-relative">
+                            Event
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" style="color: black;">See all topics</a>
+                    </div>
+                </div>
+                <div id="discover-and-footer-title-subcription">
+                    <h5>Subscribe for more</h5>
+                    <p>Get notifed when we published something new!</p>
+                </div>
+                <div id="discover-and-footer-form" class="row">
+                    <div class="col">
+                        <form class="row g-3">
+                            <div class="col-auto">
+                              <label for="inputPassword2" class="visually-hidden">Password</label>
+                              <input type="text" class="form-control" id="inputPassword2" placeholder="yourname@email.com" style="border-color: gray;">
+                            </div>
+                            <div class="col-auto">
+                              <button type="submit" class="btn btn-warning mb-3" style="border-radius: 0; border-color: gray;">Submit</button>
+                            </div>
+                          </form>
+                    </div>
+                </div>
+                <hr style="height: 3px; opacity: 50;"/>
+                <!--ini bagian footer-->
+                <div id="footer" class="row align-items-center">
+                    <div id="footer-help" class="col-2">
+                        <small>
+                            <strong>Help</strong>
+                        </small>
+                    </div>
+                    <div id="footer-status" class="col-2">
+                        <small>
+                            <strong>Status</strong>
+                        </small>
+                    </div>
+                    <div id="footer-writers" class="col-2">
+                        <small>
+                            <strong>Writers</strong>
+                        </small>
+                    </div>
+                    <div id="footer-blog" class="col-2">
+                        <small>
+                            <strong>Blog</strong>
+                        </small>
+                    </div>
+                    <div id="footer-privacy" class="col-2">
+                        <small>
+                            <strong>Privacy</strong>
+                        </small>
+                    </div>
+                    <div id="footer-term" class="col-2">
+                        <small>
+                            <strong>Term</strong>
+                        </small>
+                    </div>
+                    <div id="footer-about" class="col-2">
+                        <small>
+                            <strong>About</strong>
+                        </small>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 1em;">
+                    <p>Created with <i class="bi bi-heart-fill"></i> by Ali Reza Bahtiar</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
